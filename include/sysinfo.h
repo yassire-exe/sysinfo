@@ -21,3 +21,7 @@ void	ft_putchar(char c);
 void	ft_putstr(char *s);
 void	ft_putnbr(long n);
 void	ft_putnbr_int(int n);
+
+// ft_atoi.c
+int	ft_atoi(char *s);
+long	ft_atol(char *s);
