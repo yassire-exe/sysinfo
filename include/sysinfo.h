@@ -25,3 +25,10 @@ void	ft_putnbr_int(int n);
 // ft_atoi.c
 int	ft_atoi(char *s);
 long	ft_atol(char *s);
+
+//cpu.c
+void	read_uptime(t_sys *sys);
+
+//mem.c
+void	read_cpu_info(t_sys *sys);
+
