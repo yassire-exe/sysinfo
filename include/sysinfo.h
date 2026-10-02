@@ -16,3 +16,8 @@
 /*   Updated : 2026/10/01 23:57:51
 /* @@HEADER-END@@ */
 
+// ft_put.c
+void	ft_putchar(char c);
+void	ft_putstr(char *s);
+void	ft_putnbr(long n);
+void	ft_putnbr_int(int n);
