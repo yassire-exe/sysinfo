@@ -32,3 +32,11 @@ void	read_uptime(t_sys *sys);
 //mem.c
 void	read_cpu_info(t_sys *sys);
 
+//ft_str.c
+int	ft_strlen(char *s);
+void	ft_strcpy(char *dst, char *src);
+void	ft_strncpy(char *dst, char *src, int n);
+int	ft_strcmp(char *s1, char *s2);
+int	ft_strncmp(char *s1, char *s2, int n);
+
+
