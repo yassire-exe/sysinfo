@@ -46,3 +46,10 @@ void	read_kernel(t_sys *sys);
 void	read_hostname(t_sys *sys);
 void	read_user_shell(t_sys *sys);
 void	read_uptime(t_sys *sys);
+
+//display.c
+void	display_box_top(void);
+void	display_box_bottom(void);
+void	display_line(char *logo, char *key, char *value);
+void	display_line_nbr(char *logo, char *key, long n);
+void	display_sysinfo(t_sys *sys);
