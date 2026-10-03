@@ -39,4 +39,10 @@ void	ft_strncpy(char *dst, char *src, int n);
 int	ft_strcmp(char *s1, char *s2);
 int	ft_strncmp(char *s1, char *s2, int n);
 
-
+//info.c
+int	read_file(char *path, char *buf, int max);
+void	read_distro(t_sys *sys);
+void	read_kernel(t_sys *sys);
+void	read_hostname(t_sys *sys);
+void	read_user_shell(t_sys *sys);
+void	read_uptime(t_sys *sys);
