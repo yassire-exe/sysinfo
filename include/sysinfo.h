@@ -16,6 +16,9 @@
 /*   Updated : 2026/10/01 23:57:51
 /* @@HEADER-END@@ */
 
+#ifndef SYSINFO_H
+# define SYSINFO_H
+
 // ft_put.c
 void	ft_putchar(char c);
 void	ft_putstr(char *s);
@@ -53,3 +56,4 @@ void	display_box_bottom(void);
 void	display_line(char *logo, char *key, char *value);
 void	display_line_nbr(char *logo, char *key, long n);
 void	display_sysinfo(t_sys *sys);
+#endif
