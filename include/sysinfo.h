@@ -19,6 +19,10 @@
 #ifndef SYSINFO_H
 # define SYSINFO_H
 
+#include <unistd.h>
+#include <fcntl.h>
+#include <stdlib.h>
+
 // ft_put.c
 void	ft_putchar(char c);
 void	ft_putstr(char *s);
